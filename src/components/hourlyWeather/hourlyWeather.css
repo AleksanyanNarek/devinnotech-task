@@ -1,0 +1,11 @@
+.hourly_row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+.hourly_row img {
+    width: 2rem;
+}

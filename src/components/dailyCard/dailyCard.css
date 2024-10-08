@@ -1,0 +1,18 @@
+.dailyCard {
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #9a9a9a;
+    border-radius: 10px;
+}
+
+.dailyCard .dailyCard_result {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.dailyCard .dailyCard_result img {
+    width: 4rem;
+}

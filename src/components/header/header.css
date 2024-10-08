@@ -1,0 +1,22 @@
+.header {
+    background-color: #6A46BE;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.header .units {
+    display: flex;
+    gap: 1rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    color: #111
+}
+
+.header .units_label {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+}

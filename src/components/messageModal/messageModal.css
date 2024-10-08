@@ -1,0 +1,20 @@
+.messageModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.messageModal .modal_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #111;
+    height: 20vh;
+    width: 20vw;
+    padding: 1rem;
+    border-radius: 10px;
+}

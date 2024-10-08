@@ -1,0 +1,7 @@
+.currentWeather {
+    display: grid;
+    grid-template-columns: 10rem 20rem;
+    gap: 2rem;
+    justify-items: stretch;
+    justify-content: space-around;
+}
