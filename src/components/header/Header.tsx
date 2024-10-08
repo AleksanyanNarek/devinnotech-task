@@ -21,7 +21,7 @@ const Header = () => {
     }, []);
 
     const getWeatherList = async (cityName: string, unit: Units) => {
-        dispatch(getWeatherListThunk({
+        await dispatch(getWeatherListThunk({
             city: cityName,
             unit
         }));
